@@ -1,0 +1,1 @@
+cache_path = 'public/.sass-cache'

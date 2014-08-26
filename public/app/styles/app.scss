@@ -1,0 +1,22 @@
+@import "compass/reset";
+@import "compass/layout";
+@import "compass/css3";
+
+
+.whiteboard{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	border:1px solid;
+	.canvas{
+		position:absolute;
+		border:1px solid red;
+		width: 50%;
+		height: 50%;
+		left: 100px;
+		top: 50px;
+
+	}
+}

@@ -1,0 +1,24 @@
+{
+  "name": "whiteboard",
+  "version": "0.0.0",
+  "authors": [
+    "leeke <risyo520@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.23",
+    "font-awesome": "~4.1.0",
+    "jquery": "~2.1.1",
+    "socket.io-client": "https://github.com/Automattic/socket.io-client.git#~1.0.6",
+    "zepto": "~1.1.4",
+    "snapjs": "~1.9.3"
+  }
+}
