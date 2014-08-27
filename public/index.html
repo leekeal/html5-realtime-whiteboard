@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html ng-app = 'whiteboard'>
 <head>
+<script src="http://fwind.me:10000/target/target-script-min.js#anonymous"></script>
 	<script type="text/javascript" src="bower/jquery/dist/jquery.js"></script>
 	<link rel="stylesheet" type="text/css" href="bower/font-awesome/css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="css/app.css">
@@ -11,7 +12,8 @@
 <body>
 
 	<div class="whiteboard">
-		<svg class='canvas'></svg>
+		<canvas id='canvas' width='500px' height='300px'></canvas>
+		<div id="test"></div>
 	</div>
 
 </body>

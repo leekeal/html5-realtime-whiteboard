@@ -13,6 +13,7 @@
     "co-nedb": "^1.0.0",
     "cookie": "^0.1.2",
     "debug": "^1.0.4",
+    "hammerjs": "^2.0.2",
     "koa": "^0.10.0",
     "koa-generic-session": "^1.2.1",
     "koa-router": "^3.2.3",
@@ -22,7 +23,8 @@
     "q-io": "^1.11.4",
     "snapsvg": "git://github.com/sethvincent/Snap.svg#a34b8af69b",
     "socket.io": "^1.0.6",
-    "thunkify": "^2.1.2"
+    "thunkify": "^2.1.2",
+    "zepto-browserify": "^1.1.3-0"
   },
   "devDependencies": {
     "gulp": "^3.8.7",
