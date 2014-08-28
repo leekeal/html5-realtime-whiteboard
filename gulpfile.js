@@ -13,7 +13,7 @@ app.css     = path.join(publicPath,'css');
 app.dest    = path.join(publicPath,'js');
 app.bower    = path.join(publicPath,'bower');
 
-app.src    = path.join(app.base,'app.js');
+app.src    = path.join(app.base,'bootstrap.js');
 app.styles    = path.join(app.base,'styles');
 app.templates    = path.join(app.base,'templates');
 
@@ -27,12 +27,12 @@ gulp.task('scripts', function() {
     gulp.src(app.src)
     .pipe(browserify({
     	shim: { 
-    		angular: {
-    			path: path.join(app.bower,'angular/angular.js'),
-    			exports: 'angular'
-    		},
+    		// angular: {
+    		// 	path: path.join(app.bower,'angular/angular.js'),
+    		// 	exports: 'angular'
+    		// },
         },
-    }))
+    })).on('error',errorHandler)
     .pipe(gulp.dest(app.dest))
     .pipe(livereload());
 });
@@ -49,7 +49,7 @@ gulp.task('styles', function() {
         css: app.css,
         sass: app.styles,
         image: path.join(app.css,'images')
-    }))
+    })).on('error',errorHandler)
     .pipe(gulp.dest(app.css))
     // .pipe(livereload());
 });
@@ -59,23 +59,25 @@ gulp.task('styles', function() {
 /**
 * 默认任务
 */
-gulp.task('default', function(){
-	gulp.run('scripts');
-    gulp.run('styles');
-  
-    gulp.watch(app.base + '/**/**/*.js', function(){
-    	gulp.run('scripts');
-    })
-
-    gulp.watch(app.styles + '/**/*.scss', function(){
-        gulp.run('styles');
-    })
+gulp.task('default',['scripts','styles'],function(){
+    gulp.watch(app.base + '/**/**/*.js', ['scripts']);
+    gulp.watch(app.styles + '/**/*.scss', ['styles']);
 
     gulp.watch([
         publicPath + '/index.html',
         path.join(app.templates,'**/*.html'),
-        path.join(app.css,'app.css')
+        path.join(app.css,'app*')
         ],function(){
         }).on('change',livereload.changed);
 
+
+
+
 });
+
+
+
+function errorHandler(error){
+    console.error(error.message)
+    this.emit('end');
+}

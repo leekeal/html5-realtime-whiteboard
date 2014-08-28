@@ -1,0 +1,25 @@
+@mixin background($background...){
+	background:-webkit-$background;
+	background:-moz-$background;
+	background:$background;
+}
+.header-login{
+	border-bottom: 1px solid #dde6e5;
+	margin-bottom: 50px;
+}
+.form-container{
+	border: 1px solid #dde6e5;
+	background: #dbdbdb;
+	@include background(-webkit-linear-gradient(top, #ffffff, #dbdbdb));
+	border-radius: 6px;
+	height:350px;
+	padding:40px 20px 20px 20px;
+
+	.login-button{
+		border: 0px solid #999999;
+		background: #cccccc;
+		@include background(-webkit-linear-gradient(top, #ffffff, #cccccc));
+		padding: 8px 16px;
+		border-radius: 5px;
+	}
+}

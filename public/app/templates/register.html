@@ -1,0 +1,32 @@
+<h3 class="text-center">register</h3>
+<div class="col-xs-4 col-xs-offset-4">
+	<div ng-if="errorMsg" class="text-center alert alert-danger" role="alert">
+		{{errorMsg}}
+	</div>
+	<div ng-if="successMsg" class="text-center alert alert-success" role="alert">
+		<p>username:  {{model.username}}</p>
+		<p>password:  {{model.password}}</p>
+	</div>
+</div>
+<div class="col-xs-6 col-xs-offset-3" ng-if="!successMsg">
+	<form role="form">
+		<div class="form-group">
+			<label>Username</label>
+			<input type="text" class="form-control" ng-model='model.username'>
+		</div>
+		<div class="form-group">
+			<label>Password</label>
+			<input type="password" class="form-control" ng-model='model.password'>
+		</div>
+		<div class="form-group">
+			<label>prifession : </label>
+			<label class="checkbox-inline">
+				<input type="checkbox" id="inlineCheckbox1" value="option1"> teacher
+			</label>
+			<label class="checkbox-inline">
+				<input type="checkbox" id="inlineCheckbox2" value="option2"> student
+			</label>
+		</div>
+		<button type="submit" class="btn btn-default" ng-click="events.register()">Submit</button>
+	</form>
+</div>

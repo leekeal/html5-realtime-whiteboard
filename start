@@ -1,2 +1,2 @@
 #!/bin/sh
-DEBUG=app* node-dev --debug --harmony app.js
+DEBUG=app* node-dev --debug --harmony server.js

@@ -9,29 +9,31 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "auto-loader": "^0.2.0",
     "co": "^3.1.0",
     "co-nedb": "^1.0.0",
     "cookie": "^0.1.2",
     "debug": "^1.0.4",
-    "hammerjs": "^2.0.2",
     "koa": "^0.10.0",
+    "koa-body": "^0.2.0",
     "koa-generic-session": "^1.2.1",
     "koa-router": "^3.2.3",
     "koa-static": "^1.4.6",
     "nedb": "^0.10.11",
     "q": "^1.0.1",
     "q-io": "^1.11.4",
-    "snapsvg": "git://github.com/sethvincent/Snap.svg#a34b8af69b",
     "socket.io": "^1.0.6",
-    "thunkify": "^2.1.2",
-    "zepto-browserify": "^1.1.3-0"
+    "thunkify": "^2.1.2"
   },
   "devDependencies": {
+    "angular": "^1.2.21",
+    "angular-ui-router": "^0.2.10",
     "gulp": "^3.8.7",
     "gulp-browserify": "^0.5.0",
     "gulp-compass": "^1.3.1",
     "gulp-livereload": "^2.1.0",
     "gulp-load-plugins": "^0.5.3",
-    "gulp-watch": "^0.6.9"
+    "gulp-watch": "^0.6.9",
+    "snapsvg": "git://github.com/sethvincent/Snap.svg#a34b8af69b"
   }
 }

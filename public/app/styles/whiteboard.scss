@@ -1,0 +1,71 @@
+$header-height : 0px;
+$toolbar-width : 100px;
+@mixin transtion($transtion...){
+	-moz-transition:$transtion;
+	-webkit-transition:$transtion;
+	-o-transition:$transtion;
+	-ms-transition:$transtion;
+	transition:$transtion;
+}
+.whiteboard{
+
+	.header{
+		height:15px;
+		width:300px;
+		margin:0 auto;
+		border:1px solid #f2f6f8;
+		border-radius: 0px 0px 50px 50px;
+		box-shadow: 0px 1px 3px 1px rgba(71,71,71,1);
+		z-index: 20;
+	}
+
+	.toolbar{
+		background: #f2f6f8;
+		width:$toolbar-width;
+		position: absolute;
+		top:$header-height;
+		bottom:0px;
+		border-right:1px solid #dde6e5;
+		border-radius: 0px 30px 30px 0px;
+		box-shadow: 2px 0px 3px 0px rgba(71,71,71,1);
+		padding-top: 50px;
+
+		.toolbar-button{
+			outline: none;
+			background-color: transparent;
+			color: #1284ff;
+			border: 0px;
+			padding: 0 8px;
+			line-height: 27px;
+			font-size: 13px;
+			@include transtion(background-color 0.2s linear, color 0.2s linear);
+			width: 100px;
+			height: 50px;
+			&:active{
+				background: #ccebf5;
+			}
+		}
+	}
+
+	.right-bar{
+		width:200px;
+		position: absolute;
+		top:$header-height;
+		bottom:0;
+		right:0;
+		border-left:1px solid #dde6e5;
+		z-index: 10;
+
+		.list-color{
+			background: #eeeeee;
+		}
+	}
+
+	.canvas{
+		position:absolute;
+		top:$header-height;
+		bottom: 0;
+		left: $toolbar-width;
+		right: 0;
+	}
+}
