@@ -38,10 +38,14 @@ var app = require('../app');
 var Writer = require('../lib/writer.js');
 app.directive('accordion',function(){
 	return {
+		scope {},
 		restrict : 'EA',
 		replace : true,
 		transclude : true,
-		template : '<li ng-transclude></li>',
+		template :'<div>'
+		+'<li ng-click="toggle()"></li>'
+		+'<div ng-show></div>'
+		+'</div>'
 
 	}
 })

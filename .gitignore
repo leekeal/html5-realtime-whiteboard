@@ -1,0 +1,11 @@
+node_modules/*
+doc/*
+server/stores/*
+
+./npm-debug.log
+
+public/.sass-cache/*
+public/css/*
+public/js/*
+public/bower/*
+

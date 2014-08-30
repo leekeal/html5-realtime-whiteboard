@@ -69,19 +69,22 @@ app.controller('lessonTeacherCtrl',['$scope','$http','$location','$classroom','$
 
 
 	$scope.pen = {
-		size: 1,
+		size: 12,
 		color:'#000000',
 	}
 	$scope.$watch('pen.size',function(size){
 
 		size = (parseInt(size) + 5) / 6;
-		$scope.styles.penSize = {height:size}
+		$scope.styles.penSize = {height:size, background: $scope.pen.color}
 
 		writer.pen('size',size)
 	})
 
 	$scope.$watch('pen.color',function(color){
 		$scope.styles.penColor = {background:color};
+
+		var size = (parseInt($scope.pen.size) + 5) / 6;
+		$scope.styles.penSize = {height: size,background: color};
 		writer.pen('color',color)
 	})
 
