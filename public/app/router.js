@@ -33,11 +33,21 @@ app.config(function($stateProvider, $urlRouterProvider) {
 		controller:'lessonCtrl'
 	})
 
-	.state('lesson-class', {
-		url: '/lesson/class',
-		templateUrl: tpl + 'lesson-class.html',
-		controller:'lessonClassCtrl'
+	.state('lesson-teacher', {
+		url: '/lesson/teacher',
+		templateUrl: tpl + 'lesson-teacher.html',
+		controller:'lessonTeacherCtrl'
 	})
+
+	.state('lesson-student',{
+		url: '/lesson/student',
+		templateUrl: tpl + 'lesson-student.html',
+		controller: 'lessonStudentCtrl'
+	})
+
+
+
+
 
 
 	.state('teacher', {

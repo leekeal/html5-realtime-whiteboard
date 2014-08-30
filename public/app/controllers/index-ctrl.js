@@ -18,6 +18,6 @@ app.controller('indexCtrl',['$scope','$socket','$location',function($scope,$sock
 	events.joinClass = function(classroom){
 		console.log(classroom)
 		$socket.emit('joinClass',classroom)
-		$location.path('whiteboard-review')
+		$location.path('/lesson/student')
 	}
 }])

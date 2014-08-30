@@ -3,7 +3,7 @@
 	background:-moz-$background;
 	background:$background;
 }
-.header-login{
+.form-header{
 	border-bottom: 1px solid #dde6e5;
 	margin-bottom: 50px;
 }
@@ -14,12 +14,21 @@
 	border-radius: 6px;
 	height:350px;
 	padding:40px 20px 20px 20px;
+	color: #0d0d0d;
 
-	.login-button{
+	.form-button{
 		border: 0px solid #999999;
 		background: #cccccc;
-		@include background(-webkit-linear-gradient(top, #ffffff, #cccccc));
-		padding: 8px 16px;
+		@include background(-webkit-linear-gradient(top, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 100%));
+		padding: 8px 20px;
 		border-radius: 5px;
+		outline: none;
+		float:right;
+		margin-top:30px;
+		color: #f7f7f7;
+		text-shadow: #8c788c 0 1px 0;
+		&:active{
+			background:-webkit-linear-gradient(top, rgba(235,233,249,1) 0%, rgba(193,191,234,1) 100%);
+		}
 	}
 }

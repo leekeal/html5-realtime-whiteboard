@@ -1,8 +1,8 @@
 var angular = require('angular');
 var angularUiRouter = require('angular-ui-router')
+require('./lib/bootstrap-colorpicker-module')
 
-
-var app = angular.module('lesson', ['ui.router']); //创建一个angular模块
+var app = angular.module('lesson', ['ui.router','colorpicker.module']); //创建一个angular模块
 
 app.tpl = 'app/templates/';
 app.api = function (url){

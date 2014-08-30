@@ -12,10 +12,9 @@ require('./directives/whiteboard');
 
 // load controllers
 
-require('./controllers/review-ctrl');
 require('./controllers/user-ctrls');
 require('./controllers/whiteboard-ctrl');
-require('./controllers/whiteboard-review-ctrl');
+require('./controllers/lesson-student-ctrl');
 require('./controllers/lesson-ctrls');
 require('./controllers/test-ctrl');
 require('./controllers/index-ctrl');

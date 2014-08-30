@@ -32,3 +32,23 @@
 
 
 // }])
+
+
+var app = require('../app');
+var Writer = require('../lib/writer.js');
+app.directive('accordion',function(){
+	return {
+		restrict : 'EA',
+		replace : true,
+		transclude : true,
+		template : '<li ng-transclude></li>',
+
+	}
+})
+
+
+
+
+
+
+

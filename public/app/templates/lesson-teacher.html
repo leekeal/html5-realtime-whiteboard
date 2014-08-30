@@ -1,0 +1,43 @@
+<div class="lesson-teacher">
+	
+	<div class="header"></div>
+
+
+	<div class="toolbar">
+
+		
+		<div class="toolbar-row">
+			<button class="btn btn-default btn-sm" ng-click='events.undo()'>
+				<i class="fa fa-undo fa-lg"></i>
+			</button>
+			<button class="btn btn-default btn-sm right" ng-click='events.repeat()'>
+				<i class="fa fa-repeat fa-lg"></i>
+			</button>
+		</div>
+
+		<div class="toolbar-row text-center">
+			<i class="fa fa-hand-o-up fa-lg "></i>
+		</div>
+
+		<div class="toolbar-row">
+			<i class="fa fa-pencil fa-lg"></i>
+			<div class="pen-color" ng-style = "styles.penColor" colorpicker type="button" colorpicker-position="bottom" ng-model="pen.color"></div>
+		</div>
+
+		
+
+		<div class="toolbar-row">
+			<input ng-style = "styles.penSize" type="range" class="range" ng-model='pen.size'>
+		</div>
+
+	</div>
+
+	<div class="canvas">
+		<svg id="svg"></svg>
+	</div>
+</div>
+
+
+
+
+

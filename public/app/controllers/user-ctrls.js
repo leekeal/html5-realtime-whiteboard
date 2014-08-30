@@ -29,7 +29,7 @@ app.controller('registerCtrl',['$scope','$http',function($scope,$http){
 	var events = $scope.events = {};
 	
 	events.register = function(){
-		$http.post(app.api("register")).success(function(data){
+		$http.post(app.api("register"),model).success(function(data){
 			if(data.error){
 				$scope.errorMsg = data.error;
 				return
