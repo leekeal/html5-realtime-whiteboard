@@ -1,17 +1,20 @@
-var Snap = require('snapsvg')
+"use strict";
+// var Snap = require('snapsvg')
 
 
 
 module.exports = Writer;
 
 function Writer(selector,options){
+	
 	this.selector = selector;
 
 	this.scale = {};
-	this.mode = 'pen';
+	this._mode = 'pen';
 	this.snapshot = [];
 	this.undoSnapshot = []
 	this.options = options || {}
+	this.children = [];
 
 	this.options.pen = {
 		fill: "none",
@@ -22,8 +25,16 @@ function Writer(selector,options){
 	this.init()
 }
 
+
+
+
+
+
+
 Writer.prototype.init = function(){
 	this.paper = Snap(this.selector);
+
+
 	this.paper.attr({
 		width:this.options.width,
 		height:this.options.height,
@@ -50,7 +61,6 @@ Writer.prototype.addListener = function(){
 
 
 	element.on(mousedown,function(event){
-		console.log('mousedown')
 
 		var offset = writer.mouseOffset(event);
 
@@ -67,6 +77,7 @@ Writer.prototype.addListener = function(){
 
 
 		if(writer.mode == 'pen' && writer.stroke){
+			writer.children.push(writer.stroke.path);
 			writer.stroke.end();
 			writer.stroke = null;
 			writer.makeSnapshot()
@@ -86,11 +97,44 @@ Writer.prototype.addListener = function(){
 
 }
 
+
+Object.defineProperty(Writer.prototype, 'mode', {
+	get: function() {
+		return this._mode;
+	},
+	set: function(mode) {
+		if(mode == 'select'){
+			this.openDrag()
+		}else{
+			this.closeDrag();
+		}
+		this._mode = mode;
+	}
+});
+
+Writer.prototype.openDrag = function(){
+	var children = this.children;
+	for(var i = 0; i < children.length; i++){
+		var child = children[i]
+		child.drag();
+	}
+}
+
+Writer.prototype.closeDrag = function(){
+	var children = this.children;
+	for(var i = 0; i < children.length; i++){
+		var child = children[i]
+		child.undrag();
+	}
+}
+
 Writer.prototype.makeSnapshot = function(){
 	var paperSnapshot = $(this.selector).clone();
 	this.snapshot.push(paperSnapshot);
 	this.undoSnapshot = [];
 }
+
+
 
 Writer.prototype.undo = function(){
 	var prev = this.snapshot.pop();
@@ -116,10 +160,10 @@ Writer.prototype.repeat = function(){
 Writer.prototype.resize = function(width,height){
 
 
-	var children = this.paper.selectAll('path')
-
-	for(key in children.items){
-		var child = children.items[key]
+	// var children = this.paper.selectAll()
+	var children = this.children;
+	for(var i = 0; i < children.length; i++){
+		var child = children[i]
 
 		var windowChangeScale = {
 			x : width / child.attr('paperWidth'),
@@ -207,7 +251,12 @@ Writer.prototype.progress = function(cb){
 
 Writer.prototype.notify = function(report){
 	if(this.progressCallback){
-		this.progressCallback(report);
+		try{
+			this.progressCallback(report);
+		}
+		catch(error){
+			throw error;
+		}
 	}
 }
 
@@ -290,6 +339,7 @@ function Stroke(writer,offset){
 
 	this.pathString = 'M' + offset.x + ',' + offset.y + ' ';
 	this.path = this.paper.path(this.pathString);
+
 
 	this.path.attr(writer.options.pen);
 

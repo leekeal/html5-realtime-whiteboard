@@ -72,13 +72,15 @@
 				<p><i class="fa fa-user"></i>:   taoyage</p>
 			</li>
 
-			<accordion>
-				<li class="list-group-item">
-					<!-- <span class="badge">3</span> -->
+			<accordion ng-repeat="data in datas" aa = "aa">
+				<toggle></toggle>	
+			</accordion>
+				<!-- <li class="list-group-item">
+					<span class="badge">3</span>
 					Student
 				</li>
 
-				<!-- <li class="list-group-item">
+				<li class="list-group-item">
 					<i class="fa fa-cog"></i>
 					seting up
 				</li>
@@ -92,15 +94,14 @@
 					<i class="fa fa-cog"></i>
 					seting up
 				</li> -->
-			</accordion>
-		</ul>
+			</ul>
 
-	</div>
+		</div>
 
-	<div class="canvas">
-		<canvas id="canvas"></canvas>
+		<div class="canvas">
+			<canvas id="canvas"></canvas>
+		</div>
 	</div>
-</div>
 
 
 

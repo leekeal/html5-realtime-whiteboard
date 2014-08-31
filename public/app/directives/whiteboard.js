@@ -36,19 +36,57 @@
 
 var app = require('../app');
 var Writer = require('../lib/writer.js');
+
+
+
+
 app.directive('accordion',function(){
 	return {
-		scope {},
 		restrict : 'EA',
 		replace : true,
 		transclude : true,
-		template :'<div>'
-		+'<li ng-click="toggle()"></li>'
-		+'<div ng-show></div>'
-		+'</div>'
-
+		template : '<div ng-transclude></div>',
+		// controller : function() {
+		// 	this.opened = function(event){
+		// 		console.log(event);
+		// 	}
+		// }
 	}
-})
+});
+
+
+app.directive('toggle',function(){
+	return {
+		restrict : 'EA',
+		replace : true,
+		transclude : true,
+		require : '^?accordion',
+		template :'<div>'
+		+'<li class="list-group-item" ng-click="toggle()">{{data.title}}</li>'
+		+'<div ng-show="showMe">{{data.li}}</div>'
+		+'</div>',
+		link : function(scope,goAccordionController) {
+			scope.showMe = false;
+			scope.toggle = function toggle() {
+				scope.showMe = !scope.showMe;
+				console.log(goAccordionController);
+				goAccordionController.opened(scope);
+			}
+
+			this.opened = function(event){
+				console.log(event);
+
+			}
+		}
+	}
+});
+
+
+
+
+
+
+
 
 
 

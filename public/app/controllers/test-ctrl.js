@@ -1,6 +1,6 @@
 var app = require('../app');
 
-var Snap = require('snapsvg')
+// var Snap = require('snapsvg')
 app.controller('testCtrl',['$scope','$http',function($scope,$http){
 	
 	var model = $scope.model = {};

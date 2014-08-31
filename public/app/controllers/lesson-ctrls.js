@@ -68,6 +68,8 @@ app.controller('lessonTeacherCtrl',['$scope','$http','$location','$classroom','$
 	})
 
 
+
+	// events listener
 	$scope.pen = {
 		size: 12,
 		color:'#000000',
@@ -94,6 +96,9 @@ app.controller('lessonTeacherCtrl',['$scope','$http','$location','$classroom','$
 	}
 	events.repeat = function(){
 		writer.repeat()
+	}
+	events.changeMode = function(mode){
+		writer.mode = mode;
 	}
 
 

@@ -16,11 +16,11 @@
 		</div>
 
 		<div class="toolbar-row text-center">
-			<i class="fa fa-hand-o-up fa-lg "></i>
+			<i ng-click="events.changeMode('select')" class="fa fa-hand-o-up fa-lg "></i>
 		</div>
 
 		<div class="toolbar-row">
-			<i class="fa fa-pencil fa-lg"></i>
+			<i ng-click="events.changeMode('pen')" class="fa fa-pencil fa-lg"></i>
 			<div class="pen-color" ng-style = "styles.penColor" colorpicker type="button" colorpicker-position="bottom" ng-model="pen.color"></div>
 		</div>
 

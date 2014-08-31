@@ -13,4 +13,16 @@ app.controller('whiteboardCtrl',['$scope','$http','$socket',function($scope,$htt
 		$socket.emit('whiteboard',report);
 	})
 
+	$scope.datas = [{
+		title : 'student',
+		li : '1111'
+	},
+	{
+		title : 'setting up',
+		li : '222222'
+	},
+	{
+		title : 'test',
+		li : '33333'
+	}];
 }])
