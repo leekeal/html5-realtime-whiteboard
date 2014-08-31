@@ -63,7 +63,7 @@ app.controller('lessonTeacherCtrl',['$scope','$http','$location','$classroom','$
 	})
 
 	writer.progress(function(report){
-		console.log(report)
+		// console.log(report)
 		$socket.emit('whiteboard',report);
 	})
 

@@ -55,7 +55,7 @@ app.directive('accordion',function(){
 });
 
 
-app.directive('toggle',function(){
+app.directive('toggle',['$scope',function($scope){
 	return {
 		restrict : 'EA',
 		replace : true,
@@ -69,17 +69,19 @@ app.directive('toggle',function(){
 			scope.showMe = false;
 			scope.toggle = function toggle() {
 				scope.showMe = !scope.showMe;
-				console.log(goAccordionController);
+				// console.log(goAccordionController);
 				goAccordionController.opened(scope);
 			}
 
-			this.opened = function(event){
-				console.log(event);
-
+			goAccordionController.opened = function(scope,event){
+				var datas = [];
+				// console.log(event);
+				console.log($scope.datas);
+				// angular.forEach()
 			}
 		}
 	}
-});
+}]);
 
 
 

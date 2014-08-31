@@ -7,7 +7,7 @@ module.exports = Writer;
 
 function Writer(selector,options){
 	
-	this.selector = selector;
+	this.element = selector;
 
 	this.scale = {};
 	this._mode = 'pen';
@@ -23,6 +23,7 @@ function Writer(selector,options){
 	};
 	this.stroke = null; /* Is drawing the path*/
 	this.init()
+
 }
 
 
@@ -32,7 +33,7 @@ function Writer(selector,options){
 
 
 Writer.prototype.init = function(){
-	this.paper = Snap(this.selector);
+	this.paper = Snap(this.element);
 
 
 	this.paper.attr({
@@ -47,7 +48,7 @@ Writer.prototype.init = function(){
 */
 Writer.prototype.addListener = function(){
 	var writer = this;
-	var element = $(this.selector);
+	var element = $(this.element);
 	// touch support
 	if('createTouch' in document){
 		var mousedown = 'touchstart';
@@ -63,7 +64,10 @@ Writer.prototype.addListener = function(){
 	element.on(mousedown,function(event){
 
 		var offset = writer.mouseOffset(event);
-
+		
+		if(writer.mode == 'select' && $(event.target).is(writer.element)){
+			writer.selector = new Selector(writer,event,offset);
+		}
 
 		if(writer.mode == 'pen'){
 			writer.stroke = new Stroke(writer, offset);
@@ -75,6 +79,11 @@ Writer.prototype.addListener = function(){
 
 	element.on(mouseup,function(event){
 
+
+		if(writer.mode == 'select' && writer.selector){
+			writer.selector.end();
+			writer.selector = null;
+		}
 
 		if(writer.mode == 'pen' && writer.stroke){
 			writer.children.push(writer.stroke.path);
@@ -88,6 +97,9 @@ Writer.prototype.addListener = function(){
 	element.on(mousemove,function(event){
 		var offset = writer.mouseOffset(event);
 
+		if(writer.mode == 'select' && writer.selector){
+			writer.selector.draw(offset);
+		}
 
 		if(writer.mode == 'pen' && writer.stroke){
 			writer.stroke.write(offset); 
@@ -129,7 +141,7 @@ Writer.prototype.closeDrag = function(){
 }
 
 Writer.prototype.makeSnapshot = function(){
-	var paperSnapshot = $(this.selector).clone();
+	var paperSnapshot = $(this.element).clone();
 	this.snapshot.push(paperSnapshot);
 	this.undoSnapshot = [];
 }
@@ -140,7 +152,7 @@ Writer.prototype.undo = function(){
 	var prev = this.snapshot.pop();
 	if(prev){
 		this.undoSnapshot.unshift(prev);
-		$(this.selector).replaceWith(prev)
+		$(this.element).replaceWith(prev)
 		this.init()
 	}
 	
@@ -150,7 +162,7 @@ Writer.prototype.repeat = function(){
 	var next = this.undoSnapshot.shift();
 	if(next){
 		this.snapshot.push(next);
-		$(this.selector).replaceWith(next)
+		$(this.element).replaceWith(next)
 		this.init()
 	}
 }
@@ -184,7 +196,7 @@ Writer.prototype.resize = function(width,height){
 Writer.prototype.mouseOffset = function(event){
 	var offset = {};
 
-	var elementOffset = $(this.selector).offset()
+	var elementOffset = $(this.element).offset()
 
 	if('createTouch' in document){ /*touch support*/
 		var touchClineX = event.originalEvent.touches[0].clientX;
@@ -326,7 +338,27 @@ Writer.prototype.reviewOffsetResize = function(data){
 
 
 
+Writer.prototype.checkIntersection = function(checkRect){
 
+	var svg = document.getElementById('svg');
+
+
+	var children = this.children;
+
+	for(var i = 0; i < children.length; i++){
+		var child = children[i].node
+		var result = svg.checkIntersection(child,checkRect)
+		console.log(result)
+		if(result){
+			children[i].attr({
+				stroke:'red',
+			})
+		}
+	}
+
+
+
+}
 
 
 /*
@@ -376,5 +408,62 @@ Stroke.prototype.end = function(){
 
 
 
+function Selector(writer,event,offset){
+	this.writer = writer;
+
+	
+	this.x = offset.x;
+	this.y = offset.y;
+
+	this.showRect = writer.paper.rect(this.x ,this.y,0,0);
+	this.showRect.attr({
+		fill:'none',
+		stroke:'blue',
+		strokeWidth:'2'
+	})
+
+	this.svg = $(writer.element)[0];
+	this.checkRect =  this.svg.createSVGRect();
+	this.checkRect.x = this.x;
+	this.checkRect.y = this.y;
+	this.checkRect.width = 0;
+	this.checkRect.height = 0;
+
+
+
+}
+
+Selector.prototype.draw = function(offset){
+	var width = offset.x - this.x;
+	var height = offset.y - this.y;
+
+	if(width < 0 && height < 0 ){
+		width = Math.abs(width);
+		height = Math.abs(height);
+		this.showRect.transform(new Snap.Matrix().rotate(180,this.x,this.y));
+		this.showRect.attr({width: width, height: height})
+	}else if(width > 0 && height > 0){
+		this.showRect.transform(new Snap.Matrix().rotate(0,this.x,this.y));
+		this.showRect.attr({width: width, height: height})
+
+		this.checkRect.width = width;
+		this.checkRect.height = height;
+	}else if(width < 0 && height >0){
+		width = Math.abs(width);
+		this.showRect.transform(new Snap.Matrix().rotate(90,this.x,this.y));
+		this.showRect.attr({width: height, height: width})
+	}else if(height < 0 && width > 0){
+		height = Math.abs(height);
+		this.showRect.transform(new Snap.Matrix().rotate('-90',this.x,this.y));
+		this.showRect.attr({width: height, height: width})
+	}
+	
+	this.writer.checkIntersection(this.checkRect);
+
+}
+
+Selector.prototype.end = function(){
+	this.showRect.remove();
+}
 
 

@@ -22,7 +22,8 @@
     "angular": "~1.2.23",
     "angular-ui-router": "~0.2.11",
     "snap.svg": "~0.3.0",
-    "angular-bootstrap-colorpicker": "~3.0.8"
+    "angular-bootstrap-colorpicker": "~3.0.8",
+    "fabric": "~1.4.11"
   },
   "devDependencies": {}
 }
