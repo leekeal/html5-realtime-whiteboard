@@ -32,7 +32,7 @@ app.controller('lessonCtrl',['$scope','$http','$location','$classroom','$socket'
 }])
 
 
-var Writer = require('../lib/svg-writer.js');
+var Writer = require('../lib/canvas-writer.js')
 app.controller('lessonTeacherCtrl',['$scope','$http','$location','$classroom','$socket',function($scope,$http,$location,$classroom,$socket){
 	var events = $scope.events = {};
 	var styles = $scope.styles = {}
@@ -46,19 +46,21 @@ app.controller('lessonTeacherCtrl',['$scope','$http','$location','$classroom','$
 	$socket.emit('joinClass',$classroom);
 
 	
-	
-
-
-
 	var options = {
-		width : $("#svg").parent().width(),
-		height : $("#svg").parent().height(),
+		width : $(".canvas").width(),
+		height : $(".canvas").height(),
 	}
 
-	writer = new Writer("#svg",options)
-	// auto resize svg paper
+	writer = new Writer('canvas',options)
+
+	
+
+	// writer = new Writer("#svg",options)
+	// // auto resize svg paper
+
+
 	$(window).on('resize',function(event){
-		writer.resize($("#svg").parent().width(),$("#svg").parent().height())
+		writer.resize($(".canvas").width(),$(".canvas").height())
 
 	})
 
@@ -74,12 +76,13 @@ app.controller('lessonTeacherCtrl',['$scope','$http','$location','$classroom','$
 		size: 12,
 		color:'#000000',
 	}
+
 	$scope.$watch('pen.size',function(size){
 
 		size = (parseInt(size) + 5) / 6;
 		$scope.styles.penSize = {height:size, background: $scope.pen.color}
 
-		writer.pen('size',size)
+		writer.penSize = size;
 	})
 
 	$scope.$watch('pen.color',function(color){
@@ -87,16 +90,17 @@ app.controller('lessonTeacherCtrl',['$scope','$http','$location','$classroom','$
 
 		var size = (parseInt($scope.pen.size) + 5) / 6;
 		$scope.styles.penSize = {height: size,background: color};
-		writer.pen('color',color)
+
+		writer.penColor = color;
 	})
 
-	events.undo = function(){
-		console.log('undo')
-		writer.undo()
-	}
-	events.repeat = function(){
-		writer.repeat()
-	}
+	// events.undo = function(){
+	// 	console.log('undo')
+	// 	writer.undo()
+	// }
+	// events.redo = function(){
+	// 	writer.redo()
+	// }
 	events.changeMode = function(mode){
 		writer.mode = mode;
 	}

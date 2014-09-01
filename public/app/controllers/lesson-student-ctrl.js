@@ -1,21 +1,27 @@
 var app = require('../app');
 
-var Writer = require('../lib/svg-writer.js');
+var Writer = require('../lib/canvas-writer.js')
 app.controller('lessonStudentCtrl',['$scope','$http','$socket',function($scope,$http,$socket){
 	var canvasDiv = $('div.canvas');
 
 
+	// test 用
+	$socket.emit('joinClass',{name:'leeke-test'});
+
 	var options = {
-		width : $("#svg").parent().width(),
-		height : $("#svg").parent().height(),
+		width : $(".canvas").width(),
+		height : $(".canvas").height(),
 	}
-	writer = new Writer("#svg",options)
-	writer.set('mode','review')
+
+	writer = new Writer('canvas',options)
+	// writer.set('mode','review')
+
 	$(window).on('resize',function(event){
-		writer.resize($("#svg").parent().width(),$("#svg").parent().height())
+		writer.resize($(".canvas").width(),$(".canvas").height())
 
 	})
-	window.socket = $socket;
+
+	
 	$socket.on('whiteboard',function(data){
 		
 		try{

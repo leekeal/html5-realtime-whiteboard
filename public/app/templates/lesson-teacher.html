@@ -10,7 +10,7 @@
 			<button class="btn btn-default btn-sm" ng-click='events.undo()'>
 				<i class="fa fa-undo fa-lg"></i>
 			</button>
-			<button class="btn btn-default btn-sm right" ng-click='events.repeat()'>
+			<button class="btn btn-default btn-sm right" ng-click='events.redo()'>
 				<i class="fa fa-repeat fa-lg"></i>
 			</button>
 		</div>
@@ -28,14 +28,14 @@
 
 		<div class="toolbar-row">
 			<div class="pen-width">
-			<input ng-style = "styles.penSize" type="range" class="range" ng-model='pen.size'>
+				<input ng-style = "styles.penSize" type="range" class="range" ng-model='pen.size'>
 			</div>
 		</div>
 
 	</div>
 
 	<div class="canvas">
-		<svg id="svg"></svg>
+		<canvas id="canvas"  style="border: 1px solid rgb(170, 170, 170); position: absolute;  left: 0px; top: 0px;"></canvas>
 	</div>
 </div>
 

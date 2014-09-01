@@ -1,6 +1,6 @@
 // var angular = require('angular'); //把angular通过全局加载，减少编译时间
 // var angularUiRouter = require('angular-ui-router')
- 
+
 
 var app = angular.module('lesson', ['ui.router','colorpicker.module']); //创建一个angular模块
 app.tpl = 'app/templates/';

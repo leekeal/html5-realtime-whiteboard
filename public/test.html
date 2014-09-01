@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="bower/fabric/dist/fabric.js"></script>
+	<script type="text/javascript" src="bower/snap.svg/dist/snap.svg.js"></script>
+	<script type="text/javascript" src="bower/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="bower/angular/angular.js"></script>
+	<script type="text/javascript" src="bower/angular-bootstrap-colorpicker/js/bootstrap-colorpicker-module.js"></script>
+	<script type="text/javascript" src="bower/angular-ui-router/release/angular-ui-router.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+
+</head>
+<body>
+	<canvas id='canvas'></canvas>
+
+	<script type="text/javascript">
+		var canvas  = new fabric.Canvas('canvas');
+		canvas.isDrawingMode = true;
+		fabric.Object.prototype.transparentCorners = false;
+		canvas.setWidth(500);
+		canvas.setHeight(500)
+	</script>
+	<script type="text/javascript">
+		document.body.addEventListener('touchmove', function(e) {
+			e.stopPropagation();
+			e.preventDefault();
+		});
+	</script>
+</body>
+</html>

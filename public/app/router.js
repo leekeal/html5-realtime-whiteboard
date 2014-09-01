@@ -11,6 +11,7 @@ app.config(function($stateProvider, $urlRouterProvider) {
 	.state('index+#', {
 		url:"/",
 		templateUrl: app.tpl + 'index.html',
+		controller: 'indexCtrl'
 	})
 
 	/*--------user-ctrls.js ---------*/

@@ -1,6 +1,6 @@
 var app = require('../app');
 
-var Writer = require('../lib/writer.js');
+
 app.controller('whiteboardCtrl',['$scope','$http','$socket',function($scope,$http,$socket){
 
 	var canvasDiv = $('div.canvas');

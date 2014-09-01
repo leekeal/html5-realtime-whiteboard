@@ -17,7 +17,7 @@ app.controller('loginCtrl',['$rootScope','$scope','$http','$location',function($
 				$scope.errorMsg = data.error;
 				return
 			}
-			$location.path('whiteboard')
+			$location.path('/')
 			console.log('login success');
 		})
 	}
