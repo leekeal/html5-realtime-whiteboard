@@ -51,9 +51,14 @@ module.exports = function(io,db){
 		*/
 		socket.on('joinClass', function(data){
 			var classroom = data;
-			console.log(classroom)
 			this.session.className = classroom.name;
 			socket.join(classroom.name);
+
+			var users = get_users_name_by_room('/',classroom.name)
+			
+			socket.emit('room-users',users);
+			socket.broadcast.to(this.session.className).emit('room-users',users);
+
 			console.log(this.session.user + ' join the classroom ' + classroom.name)
 
 		})
@@ -68,5 +73,23 @@ module.exports = function(io,db){
 		})
 
 	});
+
+	//
+	function get_users_by_room(nsp, room) {
+		var users = []
+		for (var id in io.of(nsp).adapter.rooms[room]) {
+			users.push(io.of(nsp).adapter.nsp.connected[id]);
+		};
+		return users;
+	};
+	function get_users_name_by_room(nsp,room){
+		var clientsObj = get_users_by_room(nsp,room)
+		var clients = []
+		for(var i in clientsObj){
+			var client = clientsObj[i].session.user;
+			clients.push(client);
+		}
+		return clients;
+	}
 }
 

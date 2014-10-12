@@ -32,7 +32,7 @@ app.controller('lessonCtrl',['$scope','$http','$location','$classroom','$socket'
 }])
 
 
-var Writer = require('../lib/canvas-writer.js')
+var Writer = require('../lib/writer.js')
 app.controller('lessonTeacherCtrl',['$scope','$http','$location','$classroom','$socket',function($scope,$http,$location,$classroom,$socket){
 	var events = $scope.events = {};
 	var styles = $scope.styles = {}
@@ -45,6 +45,11 @@ app.controller('lessonTeacherCtrl',['$scope','$http','$location','$classroom','$
 	// 课堂存在就向服务器发送信息加入课堂
 	$socket.emit('joinClass',$classroom);
 
+	$socket.on('room-users',function(data){
+		$scope.users = data;
+		console.log(data)
+		$scope.$apply()
+	})
 	
 	var options = {
 		width : $(".canvas").width(),
@@ -54,9 +59,6 @@ app.controller('lessonTeacherCtrl',['$scope','$http','$location','$classroom','$
 	writer = new Writer('canvas',options)
 
 	
-
-	// writer = new Writer("#svg",options)
-	// // auto resize svg paper
 
 
 	$(window).on('resize',function(event){
@@ -94,13 +96,6 @@ app.controller('lessonTeacherCtrl',['$scope','$http','$location','$classroom','$
 		writer.penColor = color;
 	})
 
-	// events.undo = function(){
-	// 	console.log('undo')
-	// 	writer.undo()
-	// }
-	// events.redo = function(){
-	// 	writer.redo()
-	// }
 	events.changeMode = function(mode){
 		writer.mode = mode;
 	}

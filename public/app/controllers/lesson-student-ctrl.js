@@ -1,12 +1,12 @@
 var app = require('../app');
 
-var Writer = require('../lib/canvas-writer.js')
+var Writer = require('../lib/writer.js')
 app.controller('lessonStudentCtrl',['$scope','$http','$socket',function($scope,$http,$socket){
 	var canvasDiv = $('div.canvas');
 
 
 	// test 用
-	$socket.emit('joinClass',{name:'leeke-test'});
+	$socket.emit('joinClass',{name:'test-Pad'});
 
 	var options = {
 		width : $(".canvas").width(),
@@ -27,7 +27,7 @@ app.controller('lessonStudentCtrl',['$scope','$http','$socket',function($scope,$
 		try{
 			writer.review(data)
 		}catch(err){
-			console.error(err)
+			console.error(err.stack)
 		}
 	})
 

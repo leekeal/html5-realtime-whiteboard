@@ -2,6 +2,8 @@ var PenBrush = require('./fabric-pen-brush');
 module.exports = Writer;
 
 require('./writer-review')(Writer);
+require('./writer-setter')(Writer);
+require('./writer-notify')(Writer);
 
 function Writer(id,options){
 	this._mode = 'pen';
@@ -14,15 +16,23 @@ function Writer(id,options){
 	this.id = id;
 	this.element = document.getElementById(this.id);
 
-	
+	this.init();
+}
+
+Writer.prototype.init = function(){
 	this.initCanvas()
 	this.initPen()
 	this.initObject();
-	this.makeSnapshot();
-	this.listentObjectEvent();
 
+	this.listentObjectEvent();
+	this.notifyInit()
 }
 
+
+Writer.prototype.notifyInit = function(){
+	this.notifyPen();
+	this.notifyMove();
+}
 
 Writer.prototype.initObject = function(){
 	var canvas = this.canvas;
@@ -43,42 +53,11 @@ Writer.prototype.listentObjectEvent = function(){
 
 	var writer = this;
 	var canvas = this.canvas;
-	canvas.on("object:modified",function(event){
-		// writer.makeSnapshot()
-	})
-	canvas.on("object:rotating",function(event){
-		// writer.makeSnapshot()
-	})
-	canvas.on("object:scaling",function(event){
-		// writer.makeSnapshot()
-	})
 
-	canvas.on("object:moving",function(event){
-		// notify report
-		var report = {
-			type : 'move',
-			id : event.target._id,
-		}
-		report.position = {
-			x: event.target.left,
-			y: event.target.top,
-		}
-		report.canvas = {
-			width:canvas.getWidth(),
-			height:canvas.getHeight()
-		}
-		writer.notify(report);
-
-		//makeSnapshot 
-		// writer.makeSnapshot()
-	})
 	canvas.on("object:added",function(event){
+		// 添加新的对象后，把对象保存到this._objects中
 		var id = event.target._id;
 		writer._objects[id] = event.target;
-		// writer.makeSnapshot()
-	})
-	canvas.on("object:removed",function(event){
-		// writer.makeSnapshot()
 	})
 
 	canvas.on("object:selected",function(event){
@@ -94,14 +73,7 @@ Writer.prototype.listentObjectEvent = function(){
 }
 
 
-Writer.prototype.makeSnapshot = function(){
-	if(!this._undo){
-		var canvas = this.canvas;
-		var snapshotJson = canvas.toJSON();
 
-		this._snapshots.push(snapshotJson);
-	}
-}
 Writer.prototype.undo = function(){
 	this.notify({
 		type:'undo',
@@ -133,49 +105,6 @@ Writer.prototype.redo = function(){
 Writer.prototype.initPen = function(){
 	var writer = this;
 	var pen = this.pen = this.canvas.freeDrawingBrush = new PenBrush(this.canvas);
-
-	// mouse down
-	pen.on('mousedown',function(id,position){
-	
-
-		var report = {
-			type : 'pen',
-			position : position,
-			status : 'begin',
-			color : writer.penColor,
-			size : writer.penSize,
-			id : id,
-		}
-		report.canvas = {
-			width : writer.canvas.getWidth(),
-			height : writer.canvas.getHeight()
-		}
-		writer.notify(report);
-
-	})
-	// mouse move
-	pen.on('mousemove',function(position){
-	
-
-		var report = {
-			type : 'pen',
-			position : position,
-			status : 'write',
-		}
-
-		writer.notify(report);
-	})
-	//  mouse up
-	pen.on('mouseup',function(){
-		
-		var report = {
-			type : 'pen',
-			status : 'end',
-		}
-		writer.notify(report);
-	})
-
-
 }
 
 Writer.prototype.progress = function(cb){
@@ -244,41 +173,6 @@ Writer.prototype.resize = function(width,height){
 	}
 }
 
-Object.defineProperty(Writer.prototype, 'mode', {
-	get: function() {
-		return this._mode;
-	},
-	set: function(mode) {
-		if(mode == 'pen'){
-			this.canvas.isDrawingMode = true;
-		}if(mode == 'select'){
-			this.canvas.isDrawingMode = false;
-		}
-		this._mode = mode;
-	}
-});
-
-// pen color
-Object.defineProperty(Writer.prototype, 'penColor', {
-	get: function() {
-		return this.canvas.freeDrawingBrush.color
-	},
-	set: function(color) {
-		this.canvas.freeDrawingBrush.color = color
-		return this.canvas.freeDrawingBrush.color
-	}
-});
-
-// pen size
-Object.defineProperty(Writer.prototype, 'penSize', {
-	get: function() {
-		return this.canvas.freeDrawingBrush.width
-	},
-	set: function(size) {
-		this.canvas.freeDrawingBrush.width = size
-		return this.canvas.freeDrawingBrush.width
-	}
-});
 
 
 

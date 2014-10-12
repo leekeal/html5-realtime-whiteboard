@@ -30,8 +30,6 @@ module.exports = function(Writer){
 		obj.setTop(y);
 		obj.setCoords();
 		this.canvas.renderAll()
-		writer.makeSnapshot()
-		
 	}
 
 	Writer.prototype.penReview = function(data){

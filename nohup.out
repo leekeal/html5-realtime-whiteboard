@@ -1,0 +1,2158 @@
+/usr/local/nvm/v0.11.13/bin/node: bad option: --harymony
+Now running on localhost:5000
+{ name: 'test-Pad',
+  lessonName: 'Pad',
+  teacher: 'test',
+  status: 'beging',
+  _id: 'g1cgk3zQswZgv33S',
+  '$$hashKey': '006' }
+test join the classroom test-Pad
+{ name: 'leeke-test' }
+test join the classroom leeke-test
+{ name: 'test-Pad', teacher: 'test', lessonName: 'Pad' }
+test join the classroom test-Pad
+{ name: 'test-Pad',
+  lessonName: 'Pad',
+  teacher: 'test',
+  status: 'beging',
+  _id: 'g1cgk3zQswZgv33S',
+  '$$hashKey': '006' }
+test join the classroom test-Pad
+{ name: 'leeke-test' }
+test join the classroom leeke-test
+{ type: 'pen',
+  position: { x: 108, y: 146 },
+  status: 'begin',
+  color: '#000000',
+  size: 2.8333333333333335,
+  id: 1409801533873,
+  canvas: { width: 958, height: 604 } }
+{ type: 'pen', position: { x: 109, y: 146 }, status: 'write' }
+{ type: 'pen', position: { x: 118, y: 149 }, status: 'write' }
+{ type: 'pen', position: { x: 150, y: 154 }, status: 'write' }
+{ type: 'pen', position: { x: 196, y: 158 }, status: 'write' }
+{ type: 'pen', position: { x: 297, y: 162 }, status: 'write' }
+{ type: 'pen', position: { x: 341, y: 163 }, status: 'write' }
+{ type: 'pen', position: { x: 359, y: 163 }, status: 'write' }
+{ type: 'pen', position: { x: 363, y: 163 }, status: 'write' }
+{ type: 'pen', position: { x: 364, y: 163 }, status: 'write' }
+{ type: 'pen', status: 'end' }
+{ username: 'test', password: 'test', _id: 'CmPt6SBmrOmblpsa' }
+86400000
+{ name: 'leeke-test',
+  lessonName: 'test',
+  teacher: 'leeke',
+  status: 'beging',
+  _id: 'ZRFz9NSGARIJKgyq',
+  '$$hashKey': '006' }
+test join the classroom leeke-test
+{ name: 'leeke-test' }
+test join the classroom leeke-test
+[[36mINFO[0m] [30;1m16:43:34[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m16:43:41[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m16:45:20[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m16:45:37[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m16:46:30[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m16:46:47[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m16:46:59[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m16:47:10[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m16:47:18[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m16:47:35[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m16:49:13[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m16:49:26[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m16:49:32[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m16:49:41[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m16:49:59[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m16:52:13[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m16:52:38[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m16:53:27[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m16:55:02[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m16:55:13[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m16:55:24[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m16:55:31[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m16:57:14[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m16:57:21[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m16:57:28[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m16:58:10[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m16:59:21[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m16:59:31[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m16:59:57[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m17:00:06[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m17:00:36[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m17:03:03[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m17:03:23[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m17:04:15[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m17:05:17[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m17:09:29[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m17:09:34[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m17:09:48[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m18:10:06[0m Restarting
+Now running on localhost:5000
+[[36mINFO[0m] [30;1m18:15:14[0m Restarting
+Now running on localhost:5000
+{ username: 'test', password: 'test', _id: 'CmPt6SBmrOmblpsa' }
+86400000
+test join the classroom test-Pad
+test join the classroom test-Pad
+test join the classroom test-Pad
+test join the classroom test-Pad
+{ username: 'student',
+  password: 'student',
+  _id: 'VTTPuKedBsr9Adnf' }
+86400000
+student join the classroom test-Pad
+student join the classroom test-Pad
+{ type: 'pen',
+  position: { x: 333, y: 274 },
+  status: 'begin',
+  color: '#000000',
+  size: 2.8333333333333335,
+  id: 1409912239289,
+  canvas: { width: 1130, height: 763 } }
+{ type: 'pen', position: { x: 325, y: 274 }, status: 'write' }
+{ type: 'pen', position: { x: 333, y: 273 }, status: 'write' }
+{ type: 'pen', position: { x: 360, y: 270 }, status: 'write' }
+{ type: 'pen', position: { x: 390, y: 266 }, status: 'write' }
+{ type: 'pen', position: { x: 466, y: 260 }, status: 'write' }
+{ type: 'pen', position: { x: 485, y: 256 }, status: 'write' }
+{ type: 'pen', position: { x: 493, y: 256 }, status: 'write' }
+{ type: 'pen', position: { x: 494, y: 255 }, status: 'write' }
+{ type: 'pen', status: 'end' }
+{ type: 'pen',
+  position: { x: 451, y: 197 },
+  status: 'begin',
+  color: '#000000',
+  size: 2.8333333333333335,
+  id: 1409912239801,
+  canvas: { width: 1130, height: 763 } }
+{ type: 'pen', position: { x: 450, y: 199 }, status: 'write' }
+{ type: 'pen', position: { x: 449, y: 211 }, status: 'write' }
+{ type: 'pen', position: { x: 444, y: 238 }, status: 'write' }
+{ type: 'pen', position: { x: 433, y: 287 }, status: 'write' }
+{ type: 'pen', position: { x: 426, y: 335 }, status: 'write' }
+{ type: 'pen', position: { x: 422, y: 383 }, status: 'write' }
+{ type: 'pen', position: { x: 418, y: 425 }, status: 'write' }
+{ type: 'pen', position: { x: 418, y: 441 }, status: 'write' }
+{ type: 'pen', position: { x: 418, y: 442 }, status: 'write' }
+{ type: 'pen', status: 'end' }
+{ type: 'pen',
+  position: { x: 402, y: 398 },
+  status: 'begin',
+  color: '#000000',
+  size: 2.8333333333333335,
+  id: 1409912240114,
+  canvas: { width: 1130, height: 763 } }
+{ type: 'pen', position: { x: 395, y: 400 }, status: 'write' }
+{ type: 'pen', position: { x: 374, y: 409 }, status: 'write' }
+{ type: 'pen', position: { x: 346, y: 424 }, status: 'write' }
+{ type: 'pen', position: { x: 294, y: 449 }, status: 'write' }
+{ type: 'pen', position: { x: 275, y: 458 }, status: 'write' }
+{ type: 'pen', position: { x: 266, y: 461 }, status: 'write' }
+{ type: 'pen', position: { x: 265, y: 462 }, status: 'write' }
+{ type: 'pen', position: { x: 272, y: 458 }, status: 'write' }
+{ type: 'pen', status: 'end' }
+{ type: 'pen',
+  position: { x: 524, y: 392 },
+  status: 'begin',
+  color: '#000000',
+  size: 2.8333333333333335,
+  id: 1409912240375,
+  canvas: { width: 1130, height: 763 } }
+{ type: 'pen', position: { x: 531, y: 393 }, status: 'write' }
+{ type: 'pen', position: { x: 537, y: 399 }, status: 'write' }
+{ type: 'pen', position: { x: 545, y: 411 }, status: 'write' }
+{ type: 'pen', position: { x: 550, y: 422 }, status: 'write' }
+{ type: 'pen', position: { x: 557, y: 439 }, status: 'write' }
+{ type: 'pen', position: { x: 559, y: 447 }, status: 'write' }
+{ type: 'pen', position: { x: 561, y: 450 }, status: 'write' }
+{ type: 'pen', status: 'end' }
+{ type: 'pen',
+  position: { x: 433, y: 310 },
+  status: 'begin',
+  color: '#000000',
+  size: 2.8333333333333335,
+  id: 1409912240755,
+  canvas: { width: 1130, height: 763 } }
+{ type: 'pen', status: 'end' }
+test join the classroom test-Pad
+{ type: 'pen',
+  position: { x: 277, y: 172 },
+  status: 'begin',
+  color: '#000000',
+  size: 2.8333333333333335,
+  id: 1409928883125,
+  canvas: { width: 1474, height: 845 } }
+{ type: 'pen', status: 'end' }
+{ username: 'test', password: 'test', _id: 'CmPt6SBmrOmblpsa' }
+86400000
+test join the classroom test-Pad
+test join the classroom test-Pad
+test join the classroom test-Pad
+{ type: 'pen',
+  position: { x: 247, y: 240 },
+  status: 'begin',
+  color: '#000000',
+  size: 2.8333333333333335,
+  id: 1410143648140,
+  canvas: { width: 1015, height: 878 } }
+{ type: 'pen', position: { x: 248, y: 240 }, status: 'write' }
+{ type: 'pen', position: { x: 273, y: 238 }, status: 'write' }
+{ type: 'pen', position: { x: 323, y: 232 }, status: 'write' }
+{ type: 'pen', position: { x: 401, y: 225 }, status: 'write' }
+{ type: 'pen', position: { x: 479, y: 220 }, status: 'write' }
+{ type: 'pen', position: { x: 541, y: 218 }, status: 'write' }
+{ type: 'pen', status: 'end' }
+{ type: 'pen',
+  position: { x: 430, y: 187 },
+  status: 'begin',
+  color: '#000000',
+  size: 2.8333333333333335,
+  id: 1410143648745,
+  canvas: { width: 1015, height: 878 } }
+{ type: 'pen', position: { x: 430, y: 191 }, status: 'write' }
+{ type: 'pen', position: { x: 429, y: 201 }, status: 'write' }
+{ type: 'pen', position: { x: 427, y: 241 }, status: 'write' }
+{ type: 'pen', position: { x: 426, y: 274 }, status: 'write' }
+{ type: 'pen', position: { x: 425, y: 310 }, status: 'write' }
+{ type: 'pen', position: { x: 422, y: 341 }, status: 'write' }
+{ type: 'pen', status: 'end' }
+{ type: 'pen',
+  position: { x: 390, y: 291 },
+  status: 'begin',
+  color: '#000000',
+  size: 2.8333333333333335,
+  id: 1410143649433,
+  canvas: { width: 1015, height: 878 } }
+{ type: 'pen', position: { x: 389, y: 291 }, status: 'write' }
+{ type: 'pen', position: { x: 381, y: 297 }, status: 'write' }
+{ type: 'pen', position: { x: 369, y: 305 }, status: 'write' }
+{ type: 'pen', position: { x: 348, y: 312 }, status: 'write' }
+{ type: 'pen', position: { x: 333, y: 319 }, status: 'write' }
+{ type: 'pen', position: { x: 324, y: 325 }, status: 'write' }
+{ type: 'pen', position: { x: 320, y: 329 }, status: 'write' }
+{ type: 'pen', position: { x: 320, y: 330 }, status: 'write' }
+{ type: 'pen', status: 'end' }
+{ type: 'pen',
+  position: { x: 481, y: 259 },
+  status: 'begin',
+  color: '#000000',
+  size: 2.8333333333333335,
+  id: 1410143649853,
+  canvas: { width: 1015, height: 878 } }
+{ type: 'pen', position: { x: 481, y: 260 }, status: 'write' }
+{ type: 'pen', position: { x: 483, y: 267 }, status: 'write' }
+{ type: 'pen', position: { x: 487, y: 278 }, status: 'write' }
+{ type: 'pen', position: { x: 494, y: 292 }, status: 'write' }
+{ type: 'pen', position: { x: 502, y: 310 }, status: 'write' }
+{ type: 'pen', position: { x: 509, y: 323 }, status: 'write' }
+{ type: 'pen', position: { x: 511, y: 330 }, status: 'write' }
+{ type: 'pen', position: { x: 512, y: 331 }, status: 'write' }
+{ type: 'pen', status: 'end' }
+{ type: 'pen',
+  position: { x: 407, y: 381 },
+  status: 'begin',
+  color: '#000000',
+  size: 2.8333333333333335,
+  id: 1410143650313,
+  canvas: { width: 1015, height: 878 } }
+{ type: 'pen', position: { x: 412, y: 381 }, status: 'write' }
+{ type: 'pen', position: { x: 431, y: 382 }, status: 'write' }
+{ type: 'pen', position: { x: 450, y: 387 }, status: 'write' }
+{ type: 'pen', position: { x: 461, y: 391 }, status: 'write' }
+{ type: 'pen', position: { x: 463, y: 395 }, status: 'write' }
+{ type: 'pen', position: { x: 463, y: 403 }, status: 'write' }
+{ type: 'pen', position: { x: 460, y: 409 }, status: 'write' }
+{ type: 'pen', position: { x: 449, y: 421 }, status: 'write' }
+{ type: 'pen', position: { x: 441, y: 427 }, status: 'write' }
+{ type: 'pen', position: { x: 434, y: 430 }, status: 'write' }
+{ type: 'pen', position: { x: 433, y: 432 }, status: 'write' }
+{ type: 'pen', position: { x: 433, y: 433 }, status: 'write' }
+{ type: 'pen', position: { x: 434, y: 436 }, status: 'write' }
+{ type: 'pen', position: { x: 437, y: 441 }, status: 'write' }
+{ type: 'pen', position: { x: 450, y: 454 }, status: 'write' }
+{ type: 'pen', position: { x: 468, y: 472 }, status: 'write' }
+{ type: 'pen', position: { x: 489, y: 498 }, status: 'write' }
+{ type: 'pen', position: { x: 501, y: 519 }, status: 'write' }
+{ type: 'pen', position: { x: 507, y: 541 }, status: 'write' }
+{ type: 'pen', position: { x: 508, y: 558 }, status: 'write' }
+{ type: 'pen', position: { x: 508, y: 572 }, status: 'write' }
+{ type: 'pen', position: { x: 506, y: 582 }, status: 'write' }
+{ type: 'pen', position: { x: 495, y: 600 }, status: 'write' }
+{ type: 'pen', position: { x: 484, y: 607 }, status: 'write' }
+{ type: 'pen', position: { x: 472, y: 613 }, status: 'write' }
+{ type: 'pen', position: { x: 453, y: 613 }, status: 'write' }
+{ type: 'pen', position: { x: 429, y: 612 }, status: 'write' }
+{ type: 'pen', position: { x: 400, y: 603 }, status: 'write' }
+{ type: 'pen', position: { x: 382, y: 594 }, status: 'write' }
+{ type: 'pen', position: { x: 371, y: 581 }, status: 'write' }
+{ type: 'pen', position: { x: 361, y: 561 }, status: 'write' }
+{ type: 'pen', position: { x: 358, y: 543 }, status: 'write' }
+{ type: 'pen', position: { x: 358, y: 534 }, status: 'write' }
+{ type: 'pen', position: { x: 362, y: 529 }, status: 'write' }
+{ type: 'pen', position: { x: 404, y: 520 }, status: 'write' }
+{ type: 'pen', position: { x: 476, y: 513 }, status: 'write' }
+{ type: 'pen', position: { x: 550, y: 500 }, status: 'write' }
+{ type: 'pen', position: { x: 625, y: 496 }, status: 'write' }
+{ type: 'pen', position: { x: 678, y: 485 }, status: 'write' }
+{ type: 'pen', position: { x: 681, y: 485 }, status: 'write' }
+{ type: 'pen', status: 'end' }
+test join the classroom test-Pad
+test join the classroom test-Pad
+{ type: 'pen',
+  position: { x: 124, y: 152 },
+  status: 'begin',
+  color: '#000000',
+  size: 2.8333333333333335,
+  id: 1410143724769,
+  canvas: { width: 1015, height: 878 } }
+{ type: 'pen', position: { x: 125, y: 151 }, status: 'write' }
+{ type: 'pen', position: { x: 129, y: 151 }, status: 'write' }
+{ type: 'pen', position: { x: 157, y: 151 }, status: 'write' }
+{ type: 'pen', position: { x: 269, y: 138 }, status: 'write' }
+{ type: 'pen', position: { x: 363, y: 138 }, status: 'write' }
+{ type: 'pen', position: { x: 435, y: 132 }, status: 'write' }
+{ type: 'pen', position: { x: 466, y: 130 }, status: 'write' }
+{ type: 'pen', position: { x: 467, y: 130 }, status: 'write' }
+{ type: 'pen', status: 'end' }
+{ type: 'pen',
+  position: { x: 346, y: 73 },
+  status: 'begin',
+  color: '#000000',
+  size: 2.8333333333333335,
+  id: 1410143725101,
+  canvas: { width: 1015, height: 878 } }
+{ type: 'pen', position: { x: 346, y: 79 }, status: 'write' }
+{ type: 'pen', position: { x: 346, y: 109 }, status: 'write' }
+{ type: 'pen', position: { x: 342, y: 152 }, status: 'write' }
+{ type: 'pen', position: { x: 341, y: 205 }, status: 'write' }
+{ type: 'pen', position: { x: 339, y: 249 }, status: 'write' }
+{ type: 'pen', position: { x: 339, y: 275 }, status: 'write' }
+{ type: 'pen', position: { x: 338, y: 283 }, status: 'write' }
+{ type: 'pen', position: { x: 338, y: 284 }, status: 'write' }
+{ type: 'pen', status: 'end' }
+{ type: 'pen',
+  position: { x: 307, y: 227 },
+  status: 'begin',
+  color: '#000000',
+  size: 2.8333333333333335,
+  id: 1410143725352,
+  canvas: { width: 1015, height: 878 } }
+{ type: 'pen', position: { x: 301, y: 229 }, status: 'write' }
+{ type: 'pen', position: { x: 290, y: 235 }, status: 'write' }
+{ type: 'pen', position: { x: 279, y: 243 }, status: 'write' }
+{ type: 'pen', position: { x: 260, y: 256 }, status: 'write' }
+{ type: 'pen', position: { x: 255, y: 259 }, status: 'write' }
+{ type: 'pen', position: { x: 255, y: 260 }, status: 'write' }
+{ type: 'pen', position: { x: 257, y: 261 }, status: 'write' }
+{ type: 'pen', status: 'end' }
+{ type: 'pen',
+  position: { x: 504, y: 214 },
+  status: 'begin',
+  color: '#000000',
+  size: 2.8333333333333335,
+  id: 1410143725604,
+  canvas: { width: 1015, height: 878 } }
+{ type: 'pen', position: { x: 504, y: 216 }, status: 'write' }
+{ type: 'pen', position: { x: 503, y: 221 }, status: 'write' }
+{ type: 'pen', position: { x: 495, y: 236 }, status: 'write' }
+{ type: 'pen', position: { x: 485, y: 246 }, status: 'write' }
+{ type: 'pen', position: { x: 475, y: 255 }, status: 'write' }
+{ type: 'pen', position: { x: 474, y: 258 }, status: 'write' }
+{ type: 'pen', position: { x: 474, y: 259 }, status: 'write' }
+{ type: 'pen', position: { x: 474, y: 260 }, status: 'write' }
+{ type: 'pen', position: { x: 475, y: 262 }, status: 'write' }
+{ type: 'pen', position: { x: 480, y: 265 }, status: 'write' }
+{ type: 'pen', position: { x: 486, y: 271 }, status: 'write' }
+{ type: 'pen', position: { x: 491, y: 275 }, status: 'write' }
+{ type: 'pen', position: { x: 497, y: 280 }, status: 'write' }
+{ type: 'pen', position: { x: 497, y: 283 }, status: 'write' }
+{ type: 'pen', position: { x: 497, y: 285 }, status: 'write' }
+{ type: 'pen', position: { x: 490, y: 291 }, status: 'write' }
+{ type: 'pen', position: { x: 472, y: 300 }, status: 'write' }
+{ type: 'pen', position: { x: 439, y: 316 }, status: 'write' }
+{ type: 'pen', position: { x: 432, y: 328 }, status: 'write' }
+{ type: 'pen', position: { x: 430, y: 334 }, status: 'write' }
+{ type: 'pen', position: { x: 430, y: 337 }, status: 'write' }
+{ type: 'pen', position: { x: 433, y: 339 }, status: 'write' }
+{ type: 'pen', position: { x: 438, y: 345 }, status: 'write' }
+{ type: 'pen', position: { x: 446, y: 355 }, status: 'write' }
+{ type: 'pen', position: { x: 455, y: 377 }, status: 'write' }
+{ type: 'pen', position: { x: 464, y: 402 }, status: 'write' }
+{ type: 'pen', position: { x: 469, y: 432 }, status: 'write' }
+{ type: 'pen', position: { x: 462, y: 457 }, status: 'write' }
+{ type: 'pen', position: { x: 445, y: 470 }, status: 'write' }
+{ type: 'pen', position: { x: 425, y: 478 }, status: 'write' }
+{ type: 'pen', position: { x: 395, y: 480 }, status: 'write' }
+{ type: 'pen', position: { x: 380, y: 473 }, status: 'write' }
+{ type: 'pen', position: { x: 372, y: 454 }, status: 'write' }
+{ type: 'pen', position: { x: 375, y: 446 }, status: 'write' }
+{ type: 'pen', position: { x: 390, y: 434 }, status: 'write' }
+{ type: 'pen', position: { x: 424, y: 425 }, status: 'write' }
+{ type: 'pen', position: { x: 455, y: 421 }, status: 'write' }
+{ type: 'pen', status: 'end' }
+{ type: 'pen',
+  position: { x: 757, y: 245 },
+  status: 'begin',
+  color: '#000000',
+  size: 2.8333333333333335,
+  id: 1410143726491,
+  canvas: { width: 1015, height: 878 } }
+{ type: 'pen', position: { x: 757, y: 254 }, status: 'write' }
+{ type: 'pen', position: { x: 754, y: 300 }, status: 'write' }
+{ type: 'pen', position: { x: 754, y: 369 }, status: 'write' }
+{ type: 'pen', position: { x: 757, y: 455 }, status: 'write' }
+{ type: 'pen', position: { x: 768, y: 504 }, status: 'write' }
+{ type: 'pen', position: { x: 782, y: 531 }, status: 'write' }
+{ type: 'pen', position: { x: 801, y: 540 }, status: 'write' }
+{ type: 'pen', position: { x: 835, y: 542 }, status: 'write' }
+{ type: 'pen', position: { x: 867, y: 530 }, status: 'write' }
+{ type: 'pen', position: { x: 878, y: 525 }, status: 'write' }
+{ type: 'pen', position: { x: 874, y: 526 }, status: 'write' }
+{ type: 'pen', position: { x: 863, y: 531 }, status: 'write' }
+{ type: 'pen', position: { x: 851, y: 539 }, status: 'write' }
+{ type: 'pen', position: { x: 841, y: 546 }, status: 'write' }
+{ type: 'pen', position: { x: 825, y: 554 }, status: 'write' }
+{ type: 'pen', status: 'end' }
+{ type: 'pen',
+  position: { x: 287, y: 654 },
+  status: 'begin',
+  color: '#000000',
+  size: 2.8333333333333335,
+  id: 1410143727025,
+  canvas: { width: 1015, height: 878 } }
+{ type: 'pen', position: { x: 260, y: 652 }, status: 'write' }
+{ type: 'pen', position: { x: 245, y: 652 }, status: 'write' }
+{ type: 'pen', position: { x: 240, y: 654 }, status: 'write' }
+{ type: 'pen', position: { x: 245, y: 629 }, status: 'write' }
+{ type: 'pen', position: { x: 270, y: 538 }, status: 'write' }
+{ type: 'pen', position: { x: 289, y: 443 }, status: 'write' }
+{ type: 'pen', status: 'end' }
+{ type: 'pen',
+  position: { x: 218, y: 320 },
+  status: 'begin',
+  color: '#000000',
+  size: 2.8333333333333335,
+  id: 1410146817139,
+  canvas: { width: 1015, height: 878 } }
+{ type: 'pen', position: { x: 219, y: 320 }, status: 'write' }
+{ type: 'pen', status: 'end' }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 296.25, y: 141 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 303.25, y: 142 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 314.25, y: 143 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 354.25, y: 144 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 365.25, y: 144 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 369.25, y: 144 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 371.25, y: 144 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 374.25, y: 146 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 378.25, y: 148 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 381.25, y: 151 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 385.25, y: 156 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 388.25, y: 161 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 389.25, y: 171 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 392.25, y: 181 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 394.25, y: 194 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 395.25, y: 204 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 394.25, y: 214 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 391.25, y: 231 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 389.25, y: 238 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 387.25, y: 245 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 382.25, y: 251 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 379.25, y: 254 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 373.25, y: 257 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 363.25, y: 258 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 355.25, y: 258 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 348.25, y: 258 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 341.25, y: 257 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 333.25, y: 254 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 330.25, y: 251 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 327.25, y: 245 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 323.25, y: 235 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 320.25, y: 226 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 319.25, y: 220 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 318.25, y: 218 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 317.25, y: 215 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 317.25, y: 198 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 317.25, y: 191 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 317.25, y: 186 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 317.25, y: 178 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 318.25, y: 171 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 318.25, y: 158 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 318.25, y: 154 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 318.25, y: 150 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 317.25, y: 148 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 315.25, y: 148 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 311.25, y: 148 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 306.25, y: 146 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 288.25, y: 143 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 270.25, y: 143 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 250.25, y: 144 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 234.25, y: 145 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 217.25, y: 145 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 205.25, y: 147 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 201.25, y: 149 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 199.25, y: 152 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 198.25, y: 154 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 198.25, y: 157 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 198.25, y: 161 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 198.25, y: 164 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 199.25, y: 169 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 204.25, y: 177 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 209.25, y: 181 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 217.25, y: 186 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 222.25, y: 188 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 238.25, y: 191 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 251.25, y: 191 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 255.25, y: 191 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 260.25, y: 191 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 261.25, y: 191 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 262.25, y: 191 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 264.25, y: 192 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 272.25, y: 193 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 277.25, y: 194 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 286.25, y: 196 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 302.25, y: 202 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 326.25, y: 210 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 344.25, y: 217 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 359.25, y: 222 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 371.25, y: 226 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 379.25, y: 233 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 385.25, y: 244 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 394.25, y: 262 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 410.25, y: 292 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 418.25, y: 298 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 436.25, y: 308 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 438.25, y: 310 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 442.25, y: 311 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 446.25, y: 313 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 449.25, y: 315 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 453.25, y: 318 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 459.25, y: 320 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410143724769,
+  position: { x: 460.25, y: 320 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 423.75000000000006, y: 363.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 422.75000000000006, y: 363.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 420.75000000000006, y: 362.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 412.75000000000006, y: 358.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 405.75000000000006, y: 354.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 399.75000000000006, y: 349.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 391.75000000000006, y: 345.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 383.75000000000006, y: 340.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 375.75000000000006, y: 335.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 361.75000000000006, y: 331.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 350.75000000000006, y: 328.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 336.75000000000006, y: 322.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 319.75000000000006, y: 320.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 311.75000000000006, y: 320.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 303.75000000000006, y: 316.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 295.75000000000006, y: 312.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 277.75000000000006, y: 306.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 268.75000000000006, y: 302.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 254.75000000000006, y: 300.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 248.75000000000006, y: 299.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 245.75000000000006, y: 298.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 242.75000000000006, y: 297.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 240.75000000000006, y: 296.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 238.75000000000006, y: 296.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 237.75000000000006, y: 296.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 236.75000000000006, y: 296.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 238.75000000000006, y: 299.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 251.75000000000006, y: 311.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 275.75000000000006, y: 326.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 291.75000000000006, y: 333.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 304.75000000000006, y: 340.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 314.75000000000006, y: 342.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 332.75000000000006, y: 347.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 353.75000000000006, y: 351.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 368.75000000000006, y: 352.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 374.75000000000006, y: 352.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 377.75000000000006, y: 352.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 379.75000000000006, y: 352.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 379.75000000000006, y: 351.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 377.75000000000006, y: 349.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 371.75000000000006, y: 344.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 361.75000000000006, y: 337.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 351.75000000000006, y: 331.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 344.75000000000006, y: 330.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 338.75000000000006, y: 329.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 336.75000000000006, y: 328.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 333.75000000000006, y: 329.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 332.75000000000006, y: 330.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 331.75000000000006, y: 330.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 330.75000000000006, y: 331.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 329.75000000000006, y: 331.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 328.75000000000006, y: 331.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 327.75000000000006, y: 331.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 326.75000000000006, y: 331.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 325.75000000000006, y: 331.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 325.75000000000006, y: 332.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 325.75000000000006, y: 335.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 326.75000000000006, y: 343.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 327.75000000000006, y: 351.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 328.75000000000006, y: 357.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 329.75000000000006, y: 360.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 329.75000000000006, y: 361.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 329.75000000000006, y: 362.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 329.75000000000006, y: 363.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 330.75000000000006, y: 364.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 330.75000000000006, y: 365.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 333.75000000000006, y: 366.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 336.75000000000006, y: 367.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 337.75000000000006, y: 368.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 340.75000000000006, y: 368.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 340.75000000000006, y: 369.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 341.75000000000006, y: 369.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 342.75000000000006, y: 370.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 344.75000000000006, y: 371.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  position: { x: 345.75000000000006, y: 371.50000000000006 },
+  canvas: { width: 1015, height: 878 } }
+test join the classroom test-Pad
+{ type: 'pen',
+  position: { x: 346, y: 265 },
+  status: 'begin',
+  color: '#000000',
+  size: 2.8333333333333335,
+  id: 1410148256447,
+  canvas: { width: 1015, height: 878 } }
+{ type: 'pen', position: { x: 346, y: 266 }, status: 'write' }
+{ type: 'pen', position: { x: 354, y: 281 }, status: 'write' }
+{ type: 'pen', position: { x: 370, y: 306 }, status: 'write' }
+{ type: 'pen', position: { x: 380, y: 326 }, status: 'write' }
+{ type: 'pen', position: { x: 401, y: 378 }, status: 'write' }
+{ type: 'pen', position: { x: 402, y: 381 }, status: 'write' }
+{ type: 'pen', status: 'end' }
+{ type: 'pen',
+  position: { x: 453, y: 230 },
+  status: 'begin',
+  color: '#000000',
+  size: 2.8333333333333335,
+  id: 1410148256842,
+  canvas: { width: 1015, height: 878 } }
+{ type: 'pen', position: { x: 453, y: 236 }, status: 'write' }
+{ type: 'pen', position: { x: 464, y: 264 }, status: 'write' }
+{ type: 'pen', position: { x: 484, y: 334 }, status: 'write' }
+{ type: 'pen', position: { x: 500, y: 397 }, status: 'write' }
+{ type: 'pen', position: { x: 513, y: 462 }, status: 'write' }
+{ type: 'pen', position: { x: 518, y: 492 }, status: 'write' }
+{ type: 'pen', position: { x: 519, y: 503 }, status: 'write' }
+{ type: 'pen', position: { x: 519, y: 505 }, status: 'write' }
+{ type: 'pen', position: { x: 519, y: 503 }, status: 'write' }
+{ type: 'pen', status: 'end' }
+{ type: 'move',
+  id: 1410148256842,
+  position: { x: 485.75, y: 365 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256842,
+  position: { x: 483.75, y: 361 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256842,
+  position: { x: 480.75, y: 355 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256842,
+  position: { x: 476.75, y: 344 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256842,
+  position: { x: 471.75, y: 337 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256842,
+  position: { x: 466.75, y: 329 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256842,
+  position: { x: 455.75, y: 309 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256842,
+  position: { x: 450.75, y: 301 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256842,
+  position: { x: 447.75, y: 291 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256842,
+  position: { x: 443.75, y: 284 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256842,
+  position: { x: 441.75, y: 281 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256842,
+  position: { x: 440.75, y: 278 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256842,
+  position: { x: 440.75, y: 277 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256842,
+  position: { x: 439.75, y: 276 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256842,
+  position: { x: 439.75, y: 274 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256842,
+  position: { x: 438.75, y: 269 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256842,
+  position: { x: 438.75, y: 268 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 373.75, y: 322 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 372.75, y: 322 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 372.75, y: 321 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 371.75, y: 321 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 364.75, y: 319 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 360.75, y: 317 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 353.75, y: 314 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 349.75, y: 313 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 328.75, y: 310 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 322.75, y: 309 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 316.75, y: 309 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 309.75, y: 307 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 307.75, y: 306 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 299.75, y: 304 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 292.75, y: 303 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 285.75, y: 302 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 281.75, y: 301 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 278.75, y: 300 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 276.75, y: 300 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 275.75, y: 299 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 274.75, y: 299 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 273.75, y: 298 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 272.75, y: 297 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 271.75, y: 297 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 271.75, y: 296 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 270.75, y: 296 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 269.75, y: 295 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 268.75, y: 295 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 584.2261546623067, y: 406.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 587.2261546623067, y: 435.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 590.2261546623067, y: 463.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 590.2261546623067, y: 492.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 590.2261546623067, y: 512.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 590.2261546623067, y: 519.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 591.2261546623067, y: 519.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 591.2261546623067, y: 496.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 591.2261546623067, y: 467.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 585.2261546623067, y: 444.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 579.2261546623067, y: 431.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 578.2261546623067, y: 425.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 577.2261546623067, y: 421.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 577.2261546623067, y: 423.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 577.2261546623067, y: 428.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 578.2261546623067, y: 439.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 582.2261546623067, y: 453.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 584.2261546623067, y: 465.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 586.2261546623067, y: 474.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 588.2261546623067, y: 483.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 588.2261546623067, y: 486.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 588.2261546623067, y: 488.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 588.2261546623067, y: 489.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 585.2261546623067, y: 489.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 569.2261546623067, y: 492.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 565.2261546623067, y: 489.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 564.2261546623067, y: 481.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 564.2261546623067, y: 471.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 564.2261546623067, y: 461.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 570.2261546623067, y: 455.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 587.2261546623067, y: 449.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 589.2261546623067, y: 449.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 593.2261546623067, y: 454.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 595.2261546623067, y: 466.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 597.2261546623067, y: 489.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 597.2261546623067, y: 509.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 592.2261546623067, y: 522.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 584.2261546623067, y: 527.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 570.2261546623067, y: 530.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 556.2261546623067, y: 530.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 536.2261546623067, y: 521.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 520.2261546623067, y: 509.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 509.2261546623067, y: 493.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 520.2261546623067, y: 493.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 529.2261546623067, y: 496.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 538.2261546623067, y: 500.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 539.2261546623067, y: 500.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 541.2261546623067, y: 502.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 545.2261546623067, y: 505.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 550.2261546623067, y: 510.83781258673844 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 554.2261546623067, y: 518.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 563.2261546623067, y: 539.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 570.2261546623067, y: 558.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 576.2261546623067, y: 568.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 581.2261546623067, y: 575.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 586.2261546623067, y: 582.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 593.2261546623067, y: 591.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 611.2261546623067, y: 594.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 626.2261546623067, y: 594.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 646.2261546623067, y: 594.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 699.2261546623067, y: 596.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 724.2261546623067, y: 599.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 789.2261546623067, y: 602.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 814.2261546623067, y: 606.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 825.2261546623067, y: 606.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 830.2261546623067, y: 608.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 834.2261546623067, y: 608.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 835.2261546623067, y: 608.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 836.2261546623067, y: 607.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 837.2261546623067, y: 606.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 838.2261546623067, y: 591.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 837.2261546623067, y: 583.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 836.2261546623067, y: 580.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 824.2261546623067, y: 564.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 814.2261546623067, y: 555.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 800.2261546623067, y: 544.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 785.2261546623067, y: 536.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 775.2261546623067, y: 531.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 767.2261546623067, y: 530.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 760.2261546623067, y: 530.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 756.2261546623067, y: 533.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 753.2261546623067, y: 536.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 752.2261546623067, y: 537.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 751.2261546623067, y: 540.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 748.2261546623067, y: 542.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 744.2261546623067, y: 549.8378125867384 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 940.8768128129252, y: 726.4609997738132 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 939.8768128129252, y: 724.4609997738132 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 928.8768128129252, y: 699.4609997738132 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 905.8768128129252, y: 668.4609997738132 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 870.8768128129252, y: 627.4609997738132 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 814.8768128129252, y: 572.4609997738132 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 670.8768128129252, y: 442.4609997738132 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 645.8768128129252, y: 419.4609997738132 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 628.8768128129252, y: 405.4609997738132 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 605.8768128129252, y: 388.4609997738132 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 595.8768128129252, y: 382.4609997738132 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 580.8768128129252, y: 377.4609997738132 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 575.8768128129252, y: 375.4609997738132 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 566.8768128129252, y: 370.4609997738132 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 554.8768128129252, y: 366.4609997738132 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 536.8768128129252, y: 361.4609997738132 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 516.8768128129252, y: 355.4609997738132 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 498.8768128129252, y: 351.4609997738132 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 479.8768128129252, y: 344.4609997738132 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 456.8768128129252, y: 332.4609997738132 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 432.8768128129252, y: 321.4609997738132 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 422.8768128129252, y: 315.4609997738132 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 412.8768128129252, y: 309.4609997738132 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 412.8768128129252, y: 310.4609997738132 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 413.8768128129252, y: 315.4609997738132 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 419.8768128129252, y: 327.4609997738132 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 424.8768128129252, y: 345.4609997738132 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 433.8768128129252, y: 359.4609997738132 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 442.8768128129252, y: 374.4609997738132 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 445.8768128129252, y: 377.4609997738132 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 289.6092171861354, y: 238.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 288.6092171861354, y: 244.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 288.6092171861354, y: 254.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 284.6092171861354, y: 264.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 282.6092171861354, y: 272.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 281.6092171861354, y: 277.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 274.6092171861354, y: 294.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 273.6092171861354, y: 296.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 272.6092171861354, y: 301.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 268.6092171861354, y: 312.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 264.6092171861354, y: 317.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 261.6092171861354, y: 323.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 257.6092171861354, y: 327.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 255.60921718613542, y: 333.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 253.60921718613542, y: 337.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 251.60921718613542, y: 345.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 249.60921718613542, y: 355.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 246.60921718613542, y: 363.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 246.60921718613542, y: 369.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 244.60921718613542, y: 374.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 243.60921718613542, y: 379.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 243.60921718613542, y: 382.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 242.60921718613542, y: 385.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 242.60921718613542, y: 388.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 242.60921718613542, y: 390.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 242.60921718613542, y: 391.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 242.60921718613542, y: 392.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 244.60921718613542, y: 392.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 254.60921718613542, y: 395.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 295.6092171861354, y: 408.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 314.6092171861354, y: 415.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 340.6092171861354, y: 422.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 358.6092171861354, y: 426.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 374.6092171861354, y: 429.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 374.6092171861354, y: 430.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 374.6092171861354, y: 432.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 368.6092171861354, y: 439.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 365.6092171861354, y: 440.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 362.6092171861354, y: 443.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 360.6092171861354, y: 444.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 359.6092171861354, y: 444.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 357.6092171861354, y: 445.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 356.6092171861354, y: 445.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 353.6092171861354, y: 445.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 352.6092171861354, y: 445.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 349.6092171861354, y: 445.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 345.6092171861354, y: 444.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 339.6092171861354, y: 444.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 334.6092171861354, y: 442.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 327.6092171861354, y: 441.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 318.6092171861354, y: 439.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 305.6092171861354, y: 438.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 301.6092171861354, y: 437.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 298.6092171861354, y: 436.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 296.6092171861354, y: 435.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 294.6092171861354, y: 433.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 292.6092171861354, y: 432.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 292.6092171861354, y: 431.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 292.6092171861354, y: 430.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 291.6092171861354, y: 428.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 291.6092171861354, y: 427.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 290.6092171861354, y: 428.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 289.6092171861354, y: 435.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 285.6092171861354, y: 441.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 279.6092171861354, y: 448.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 276.6092171861354, y: 450.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 275.6092171861354, y: 450.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 275.6092171861354, y: 447.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 282.6092171861354, y: 418.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 300.6092171861354, y: 392.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 326.6092171861354, y: 370.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 354.6092171861354, y: 363.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 388.6092171861354, y: 362.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 406.6092171861354, y: 369.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 417.6092171861354, y: 379.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 420.6092171861354, y: 394.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 422.6092171861354, y: 428.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 421.6092171861354, y: 443.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 417.6092171861354, y: 451.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 406.6092171861354, y: 455.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 400.6092171861354, y: 455.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 394.6092171861354, y: 453.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 380.6092171861354, y: 435.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 377.6092171861354, y: 429.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 377.6092171861354, y: 427.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 377.6092171861354, y: 428.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 377.6092171861354, y: 435.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 377.6092171861354, y: 438.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 376.6092171861354, y: 452.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 375.6092171861354, y: 456.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 374.6092171861354, y: 454.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 372.6092171861354, y: 454.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 370.6092171861354, y: 453.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 366.6092171861354, y: 451.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 359.6092171861354, y: 450.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 350.6092171861354, y: 447.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 341.6092171861354, y: 443.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 324.6092171861354, y: 437.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 321.6092171861354, y: 436.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 320.6092171861354, y: 436.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 319.6092171861354, y: 436.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 318.6092171861354, y: 436.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+{ type: 'move',
+  id: 1410148256447,
+  position: { x: 317.6092171861354, y: 435.39078281386463 },
+  canvas: { width: 1015, height: 878 } }
+test join the classroom test-Pad

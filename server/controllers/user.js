@@ -1,6 +1,6 @@
 
 exports.register = function *(){
-
+	
 	var user = this._post || {};
 
 	if(!user.username || !user.password) {

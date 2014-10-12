@@ -1,19 +1,17 @@
 <div class="lesson-teacher">
-	
-	<div class="header"></div>
 
 
 	<div class="toolbar">
 
 		
-		<div class="toolbar-row">
+<!-- 		<div class="toolbar-row">
 			<button class="btn btn-default btn-sm" ng-click='events.undo()'>
 				<i class="fa fa-undo fa-lg"></i>
 			</button>
 			<button class="btn btn-default btn-sm right" ng-click='events.redo()'>
 				<i class="fa fa-repeat fa-lg"></i>
 			</button>
-		</div>
+		</div> -->
 
 		<div class="toolbar-row text-center">
 			<i ng-click="events.changeMode('select')" class="fa fa-hand-o-up fa-lg "></i>
@@ -36,6 +34,14 @@
 
 	<div class="canvas">
 		<canvas id="canvas"  style="border: 1px solid rgb(170, 170, 170); position: absolute;  left: 0px; top: 0px;"></canvas>
+	</div>
+
+
+	<div class="room-users">
+		<span>online users</span>
+		<ul>
+			<li ng-repeat="user in users track by $index">{{user}}</li>
+		</ul>
 	</div>
 </div>
 
