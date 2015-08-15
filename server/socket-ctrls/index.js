@@ -69,6 +69,7 @@ module.exports = function(io,db){
 		*/
 		socket.on('whiteboard',function(data){
 			console.log(data)
+			console.log(this.session.className)
 			socket.broadcast.to(this.session.className).emit('whiteboard',data);
 		})
 
